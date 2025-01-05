@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- EditText para el nombre del producto -->
+    <EditText
+        android:id="@+id/etProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del producto"
+        android:inputType="text" />
+
+    <!-- EditText para la cantidad -->
+    <EditText
+        android:id="@+id/etQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad"
+        android:inputType="number" />
+
+    <!-- Spinner para seleccionar la sección -->
+    <Spinner
+        android:id="@+id/spinnerSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- CheckBox para urgente -->
+    <CheckBox
+        android:id="@+id/cbUrgent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Producto urgente" />
+
+    <!-- Botón para guardar el producto -->
+    <Button
+        android:id="@+id/btnSaveProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar producto"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
