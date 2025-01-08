@@ -18,7 +18,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
+        android:backgroundTint="#4CAF50"
         android:text="Añadir Producto"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,20 +30,25 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="36dp"
+        android:backgroundTint="#DD4242"
         android:text="Borrar Todo"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnAdd" />
 
     <!-- Botón Imprimir -->
 
     <!-- RecyclerView para la lista de productos -->
+
     <Button
         android:id="@+id/btnClearSelection"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#DD4242"
         android:text="Borrar Selección"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/btnClearAll"
         app:layout_constraintTop_toBottomOf="@+id/btnPrint" />
 
@@ -51,7 +58,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
         android:layout_marginTop="24dp"
+        android:backgroundTint="#00BCD4"
         android:text="Imprimir"
+        android:textColor="#070707"
         app:layout_constraintStart_toEndOf="@+id/btnAdd"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -59,6 +68,7 @@
         android:id="@+id/recyclerView"
         android:layout_width="404dp"
         android:layout_height="471dp"
+        android:backgroundTint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
